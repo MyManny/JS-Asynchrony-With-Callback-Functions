@@ -18,6 +18,7 @@ function newPlayableCharacter(x, y) {
         if (direction === 'south') {
             element.src = `assets/green-character/south.gif`
         }
+        
     }
 
     move(element).withArrowKeys(x, y, handleDirectionChange)
